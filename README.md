@@ -21,4 +21,4 @@ You can check ***main.py*** for more details.
 
 The output also gives the derivational chain information. For example, the word _sterilizing_ is derivated by sterilize, deleting _e_ and plus _-ing_, which is then derived from _sterile_, deleting _e_ and plus _-ize_. The line will be like the following except that there will be no brackets.
 
-sterilizing \<\t\> steril iz ing \<\t\> (sterile X $) (sterile X_<ize> del:e:r) (steril__ize X_<ing> del:e:r)
+sterilizing \<\t\> steril iz ing \<\t\> (sterile X $) (sterile X_\<ize\> del:e:r) (steril__ize X_\<ing\> del:e:r)
