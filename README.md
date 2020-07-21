@@ -8,14 +8,14 @@ Hongzhi Xu, Jordan Kodner, Mitch Marcus, Charles Yang. 2020. Unsupervised Learni
 
 ## Segment a word list
 Use the following command to segment a word list (each line: \<word\> \<freq\>), and save it to a file. 
-'''
+```
 python3 main.py my_data.txt -o my_data_seg.txt
-'''
+```
 
 If you have a training word list and a test word list, you can use the following.
-'''
+```
 python3 main.py my_data.txt -o my_data_seg.txt -ti my_test_data.txt -to my_test_seg.txt
-'''
+```
 
 You can check ***main.py*** for more details.
 
