@@ -14,7 +14,7 @@ python3 main.py my_data.txt -o my_data_seg.txt
 
 If you have a training word list and a test word list, you can use the following.
 ```
-python3 main.py my_data.txt -o my_data_seg.txt -ti my_test_data.txt -to my_test_seg.txt
+python3 main.py training_data.txt -o training_seg.txt -ti test_data.txt -to test_seg.txt
 ```
 
 You can check ***main.py*** for more details.
